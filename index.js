@@ -68,7 +68,9 @@ function deleteNodeAt(index, headAddress, collection){
   for(i; i < index; i++){
      prevNode = currNode
      currNode = next(currNode, collection);
-
   }
-  prevNode.next = addressAt(i, headAddress, collection);
+  prevNode.next = currNode.next;
 }
+
+
+
