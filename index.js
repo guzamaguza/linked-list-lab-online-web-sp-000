@@ -64,9 +64,14 @@ function insertNodeAt(index, nodeAddress, headAddress, collection){
 function deleteNodeAt(index, headAddress, collection){
   let prevNode;
   let currNode = headNode(headAddress, collection);
-  for(let i = 0; i < index; i++){
+  let i = 0;
+  for(i; i < index; i++){
      prevNode = currNode
      currNode = next(currNode, collection);
+     
   }
   prevNode.next = addressAt(i, headAddress, collection);
 }
+
+
+
