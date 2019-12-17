@@ -24,7 +24,6 @@ function nodeAt(index, headAddress, collection){
 }
 
 
-
 function addressAt(index, headAddress, collection){
   if(index === 0){
     return headAddress
