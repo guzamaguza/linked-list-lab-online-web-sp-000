@@ -62,7 +62,13 @@ function insertNodeAt(index, nodeAddress, headAddress, collection){
   newNode.next = nextNodeAddress; //sets the address of the next node element
 }
 
-function deleteNodeAt(){
-
-
+function deleteNodeAt(index, headAddress, collection){
+  newNode = nodeAt(index, headAddress, collection)
+  
 }
+
+
+
+
+
+
