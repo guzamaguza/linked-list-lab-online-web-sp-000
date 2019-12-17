@@ -64,11 +64,5 @@ function insertNodeAt(index, nodeAddress, headAddress, collection){
 
 function deleteNodeAt(index, headAddress, collection){
   newNode = nodeAt(index, headAddress, collection)
-  
+
 }
-
-
-
-
-
-
