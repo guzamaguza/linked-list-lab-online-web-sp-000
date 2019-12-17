@@ -26,7 +26,7 @@ function nodeAt(index, headAddress, collection){
 
 
 function addressAt(index, headAddress, collection){
-  if(index === indexAt(collection[0],collection, headAddress){
+  if(index === indexAt(collection[0],collection, headAddress)){
     return headAddress
   }else{
     let nodePrior = nodeAt(index-1, headAddress, collection);
@@ -47,6 +47,7 @@ function indexAt(node, collection, headAddress){
     return index;
   }
 }
+
 
 function insertNodeAt(index, nodeAddress, headAddress, collection){
   let previousNode = nodeAt(index-1, headAddress, collection);
