@@ -26,7 +26,7 @@ function nodeAt(index, headAddress, collection){
 
 
 function addressAt(index, headAddress, collection){
-  if(index === headAddress){
+  if(index === indexAt(0 ,collection, headAddress){
     return headAddress
   }else{
     let nodePrior = nodeAt(index-1, headAddress, collection);
@@ -63,4 +63,8 @@ function insertNodeAt(index, nodeAddress, headAddress, collection){
 
 function deleteNodeAt(){
 
+
 }
+
+
+
