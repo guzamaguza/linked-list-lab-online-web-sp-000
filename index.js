@@ -70,6 +70,3 @@ function deleteNodeAt(index, headAddress, collection){
   }
   prevNode.next = addressAt(i, headAddress, collection);
 }
-
-
-
